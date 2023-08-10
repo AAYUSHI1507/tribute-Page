@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(150 167 125);
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 620px;
+  margin-top: 220px;
+}
+
+p{
+    padding-top: 15px;
+}
+
+.card{
+    background-color: rgb(46, 139, 87, 0.25);
+    box-shadow: 20px 20px 20px #98FB98;
+    font-family: Georgia;
+    padding: 25px 25px;
+    margin: 11px;
+    margin-top: 50px;
+}
+#tribute-link {
+    text-decoration: none;
+    color: black;
+}
